@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MaryuriMonsalve/micros.git
+          uri: https://github.com/MaryuriMonsalve/Microservices.git
           searchPaths: config-data
   security:
     user:

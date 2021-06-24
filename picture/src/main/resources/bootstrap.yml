@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: cargar-imagen
+    name: picture
   cloud:
     config:
       uri: http://localhost:8081
