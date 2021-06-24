@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../picture/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../picture/src/main/resources/bootstrap.yml" afterDir="false" />
-    </list>
+    <list default="true" id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,6 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2130479" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -50,11 +49,11 @@
   </component>
   <component name="RunManager">
     <configuration name="ClienteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.cliente.ClienteApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.client.ClienteApplication" />
       <module name="client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.cliente.service.Impl.*" />
+          <option name="PATTERN" value="com.practice.client.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
