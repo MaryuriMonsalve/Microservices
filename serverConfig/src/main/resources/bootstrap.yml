@@ -1,7 +1,6 @@
 
 server:
   port: 8081
-
 spring:
   cloud:
     config:
@@ -9,7 +8,6 @@ spring:
         git:
           uri: https://github.com/MaryuriMonsalve/Microservices.git
           searchPaths: config-data
-
   security:
     user:
       name: root
