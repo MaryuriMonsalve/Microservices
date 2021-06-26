@@ -4,36 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Microservices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/IPictureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/IPictureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/impl/PictureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/impl/PictureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverConfig/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverConfig/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverConfig/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="19dc4f55-5bd0-4ea7-97eb-f273c490faa0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../registry/${project.build.directory}/classes/com/practice/registry/RegistryServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../registry/${project.build.directory}/test-classes/com/practice/registry/RegistryServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Microservices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/${project.build.directory}/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/controller/ClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/controller/ClientRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/dto/IClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/dto/IClientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/service/Impl/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/service/Impl/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/client/ClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/client/ClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/client/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/controller/ClientRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/client/controller/ClientRest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/service/Impl/ClientServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/client/service/Impl/ClientServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.practice.client.ClientApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.practice.client.ClientApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/client/ClientApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/client/ClientApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="ProjectId" id="1sj1uptHGu6rGYKkisDgcNygkev" />
+  <component name="ProjectId" id="1uVKiYKPgJf4CK2fny5SuH9ziDQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -45,17 +58,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="settings.editor.splitter.proportion" value="0.2130479" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Microservices\client\src\main\java\com\practice\client\dto" />
-      <recent name="C:\Users\User\Desktop\Micros\client\src\main\java\com\practice\cliente\configuration" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.practice.cliente.configuration" />
+      <recent name="C:\Users\User\Desktop\Microservices\client\src\main\resources" />
+      <recent name="C:\Users\User\Downloads\client\src\main\java\com\example\client" />
     </key>
   </component>
   <component name="RunManager">
@@ -64,7 +72,7 @@
       <module name="client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.client.service.Impl.*" />
+          <option name="PATTERN" value="com.practice.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +89,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="" />
-      <created>1621371410636</created>
+      <changelist id="19dc4f55-5bd0-4ea7-97eb-f273c490faa0" name="Default Changelist" comment="" />
+      <created>1624745445184</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621371410636</updated>
+      <updated>1624745445184</updated>
     </task>
     <servers />
   </component>
@@ -101,14 +109,7 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

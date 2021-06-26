@@ -1,7 +1,6 @@
 package com.practice.client.controller;
 
 import com.practice.client.dto.ClientDto;
-import com.practice.client.entity.ClientEntity;
 import com.practice.client.service.IClientService;
 import org.springframework.web.bind.annotation.*;
 

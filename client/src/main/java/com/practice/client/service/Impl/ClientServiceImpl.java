@@ -1,7 +1,6 @@
 package com.practice.client.service.Impl;
 
 import com.practice.client.dto.ClientDto;
-import com.practice.client.dto.mapper.IMapper;
 import com.practice.client.dto.mapper.impl.MapperImpl;
 import com.practice.client.entity.ClientEntity;
 import com.practice.client.repository.ClientRepository;
