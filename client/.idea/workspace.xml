@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="" />
+    <list default="true" id="30921198-3749-41a8-a94d-333b2a3ef4c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Microservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/IPictureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/IPictureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/impl/PictureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../picture/src/main/java/practice/cargarimagen/service/impl/PictureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverConfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverConfig/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../serverConfig/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +45,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2130479" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Microservices\client\src\main\java\com\practice\client\dto" />
       <recent name="C:\Users\User\Desktop\Micros\client\src\main\java\com\practice\cliente\configuration" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -48,8 +59,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ClienteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.client.ClienteApplication" />
+    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.client.ClientApplication" />
       <module name="client" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClienteApplication" />
+        <item itemvalue="Application.ClientApplication" />
       </list>
     </recent_temporary>
   </component>

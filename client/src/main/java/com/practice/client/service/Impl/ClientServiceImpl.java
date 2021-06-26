@@ -1,7 +1,8 @@
 package com.practice.client.service.Impl;
 
 import com.practice.client.dto.ClientDto;
-import com.practice.client.dto.IClientMapper;
+import com.practice.client.dto.mapper.IMapper;
+import com.practice.client.dto.mapper.impl.MapperImpl;
 import com.practice.client.entity.ClientEntity;
 import com.practice.client.repository.ClientRepository;
 import com.practice.client.service.IClientService;
@@ -13,9 +14,9 @@ import java.util.List;
 public class ClientServiceImpl implements IClientService {
 
     public ClientRepository clientRepository;
-    public IClientMapper clientMapper;
+    public MapperImpl clientMapper;
 
-    public ClientServiceImpl(ClientRepository clientRepository, IClientMapper clientMapper){
+    public ClientServiceImpl(ClientRepository clientRepository, MapperImpl clientMapper){
         this.clientRepository = clientRepository;
         this.clientMapper = clientMapper;
     }
@@ -25,6 +26,13 @@ public class ClientServiceImpl implements IClientService {
         ClientEntity clientEntity = clientMapper.toEntity(cliente);
         clientRepository.save(clientEntity);
         return cliente;
+    }
+
+    @Override
+    public List<ClientDto> findAll() throws Exception {
+        List<ClientEntity> listaEntity= (List<ClientEntity>) clientRepository.findAll();
+        List<ClientDto> list= clientMapper.toDtoList(listaEntity);
+        return list;
     }
 
     @Override

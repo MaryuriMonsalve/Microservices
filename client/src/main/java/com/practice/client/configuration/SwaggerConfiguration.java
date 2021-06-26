@@ -16,19 +16,17 @@ import java.util.Collections;
 @EnableSwagger2
 public class SwaggerConfiguration {
 
-
     @Bean
     public Docket swaggerSpringfoxDocket() {
         Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 //.pathMapping("/api")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.practice.cliente.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo())
                 .genericModelSubstitutes(ResponseEntity.class)
                 ;
-
         return docket;
     }
 

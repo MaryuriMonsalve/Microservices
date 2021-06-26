@@ -9,6 +9,7 @@ spring:
         git:
           uri: https://github.com/MaryuriMonsalve/Microservices.git
           searchPaths: config-data
+
   security:
     user:
       name: root

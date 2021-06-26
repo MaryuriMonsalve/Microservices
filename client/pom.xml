@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.practice</groupId>
-	<artifactId>cliente</artifactId>
+	<artifactId>client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cliente</name>
+	<name>client</name>
 	<description>Project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -105,7 +105,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.5.0</version>
+				<version>2.5.1</version>
 				<configuration>
 					<excludes>
 						<exclude>
