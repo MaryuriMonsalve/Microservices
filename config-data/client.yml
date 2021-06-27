@@ -25,10 +25,14 @@ eureka:
 Feign:
   hystrix:
     enabled: true
+    dashboard:
+      proxy-stream-allow-list: "*"
   ribbon:
     enabled: true
     circuitbreaker:
       enabled: true
+
+
 management:
   endpoints:
     web:
