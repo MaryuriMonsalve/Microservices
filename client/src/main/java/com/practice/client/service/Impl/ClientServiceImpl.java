@@ -1,5 +1,6 @@
 package com.practice.client.service.Impl;
 
+import com.practice.client.clientfeign.PictureClient;
 import com.practice.client.dto.ClientDto;
 import com.practice.client.dto.mapper.impl.MapperImpl;
 import com.practice.client.entity.ClientEntity;
@@ -14,18 +15,21 @@ public class ClientServiceImpl implements IClientService {
 
     public ClientRepository clientRepository;
     public MapperImpl clientMapper;
+    public PictureClient pictureClient;
 
-    public ClientServiceImpl(ClientRepository clientRepository, MapperImpl clientMapper){
+
+    public ClientServiceImpl(ClientRepository clientRepository, MapperImpl clientMapper, PictureClient pictureClient){
         this.clientRepository = clientRepository;
         this.clientMapper = clientMapper;
+        this.pictureClient = pictureClient;
     }
 
     @Override
     public ClientDto save(ClientDto cliente) {
         ClientEntity clientEntity = clientMapper.toEntity(cliente);
+        pictureClient.procesarFoto(cliente.getPicture());
         clientRepository.save(clientEntity);
-        return cliente;
-    }
+        return cliente;    }
 
     @Override
     public List<ClientDto> findAll() throws Exception {

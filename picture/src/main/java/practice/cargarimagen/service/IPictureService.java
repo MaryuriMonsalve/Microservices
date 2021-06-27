@@ -2,5 +2,5 @@ package practice.cargarimagen.service;
 
 public interface IPictureService {
 
-    void procesarFoto(String fileBase64);
+    String procesarFoto(String fileBase64);
 }

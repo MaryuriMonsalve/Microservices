@@ -17,9 +17,10 @@ public class PictureServiceImpl implements IPictureService {
 
 
     @Override
-    public void procesarFoto(String fileBase64) {
+    public String procesarFoto(String fileBase64) {
         PictureDocument picture= new PictureDocument();
         picture.setPictureB64(fileBase64);
         pictureRepository.save(picture);
+        return fileBase64;
     }
 }

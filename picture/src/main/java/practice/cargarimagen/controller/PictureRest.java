@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import practice.cargarimagen.service.IPictureService;
 
 @RestController
-@RequestMapping("/foto")
+@RequestMapping("/picture")
 public class PictureRest {
     IPictureService fotoService;
 
@@ -17,7 +17,7 @@ public class PictureRest {
     }
 
 
-    @PostMapping(path = "/procesarFoto")
+    @PostMapping(path = "/save")
     public void procesarFoto(@RequestParam(name = "foto") String fileBase64) {
 
         fotoService.procesarFoto(fileBase64);
