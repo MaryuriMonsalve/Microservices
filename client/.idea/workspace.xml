@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19dc4f55-5bd0-4ea7-97eb-f273c490faa0" name="Default Changelist" comment="" />
+    <list default="true" id="19dc4f55-5bd0-4ea7-97eb-f273c490faa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/clientfeign/PictureClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/clientfeign/PictureClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/client/controller/ClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/client/controller/ClientRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/ClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/clientfeign/PictureClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/clientfeign/PictureHystrixFallBackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/configuration/ExceptionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/configuration/SwaggerConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/configuration/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/configuration/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/controller/ClientRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/dto/ClientDto$ClientDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/dto/ClientDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/dto/IClientMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/dto/mapper/IMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/dto/mapper/impl/MapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/entity/ClientEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/repository/ClientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/service/IClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/client/service/Impl/ClientServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/client/ClientApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/client.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
