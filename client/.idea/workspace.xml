@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19dc4f55-5bd0-4ea7-97eb-f273c490faa0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/java/com/practice/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/test/java/com/practice/admin/AdminApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/client.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/client.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/picture.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/picture.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gateway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
