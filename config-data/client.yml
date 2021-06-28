@@ -33,8 +33,6 @@ hystrix:
   dashboard:
     proxy-stream-allow-list: "*"
 
-
-
 management:
   endpoints:
     web:

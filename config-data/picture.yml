@@ -15,6 +15,12 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 #data.mongodb.database=MongoDbPractice
 #spring.data.mongodb.uri=mongodb://localhost/MongoDbPractice
 #spring.data.mongodb.host=localhost
