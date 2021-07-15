@@ -1,0 +1,21 @@
+
+
+spring:
+  data:
+    mongodb:
+      database: MongoDbPractice
+      host: localhost
+      port: 27017
+    repositories:
+      enabled: true
+
+#data.mongodb.database=MongoDbPractice
+#spring.data.mongodb.uri=mongodb://localhost/MongoDbPractice
+#spring.data.mongodb.host=localhost
+
+#spring.data.mongodb.username=
+#spring.data.mongodb.password=
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.repositories.enabled=true
+
+
